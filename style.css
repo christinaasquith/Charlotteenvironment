@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  width: 100%; 
+  text-align:center;
+  overflow-x: none;
+  
+}
+.header {
+  width: 100vw;
+  height: 80vh;
+  position: relative; 
+  overflow: none;
+  background-image: url( 
+https://cloud-e0yu11qvq-hack-club-bot.vercel.app/0img_3047.jpg
+);
+  background-position: bottom left;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#ffb940;
+  font-size: 1.2em;
+  -webkit-text-stroke:1px black;
+}
+.header a {
+  padding: 10px 15px;
+  background-color: antiquewhite;
+  border-radius: 50px;
+
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+} 
+.blopn {
+  position:relative;
+}
+.blopn img {
+width:100%;
+  position: absolute;
+  bottom: 0px;
+left:0px; 
+}
+
+}
