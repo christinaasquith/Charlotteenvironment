@@ -4,6 +4,7 @@ html, body {
   text-align:center;
   overflow-x: none;
   font-family: 'Josefin Sans', sans-serif;
+  margin: 0px;
 }
 
 .container {
@@ -124,30 +125,30 @@ background-image: url(https://cloud-cyxx2i5u2-hack-club-bot.vercel.app/0snowycha
 }
 
 ul {
-  list-style: none;
   text-align:left;
 }
 
 .button-box {
-  margin: 10px 0px;
+  margin: 5px 0px;
   text-align: left;
+  margin: auto;
 }
 
 .button {
-   padding: 10px 15px;
+  padding: 10px 15px;
   background-color: antiquewhite;
-  border-radius: 50px;
-  margin-left: 20px;
+  border-radius: 5px;
+  width: 70%;
+  display: block;
 }
 
 .care {
   width: 70%;
-  height: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: auto;
   background-color: antiquewhite;
-  border-radius: 20px;
+  border-radius: 5px;
+  padding: 5px 20px 10px 20px;
+  text-align: center;
 }
 
 
@@ -155,20 +156,21 @@ h4 {
   font-size: 1.3em;
 }
 
-.care h4 {
-  margin: 0;
-}
-
 @media screen and (max-width: 760px) {
   .care {
     margin-top: 10px;
     width: 90%;
     height: 100px;
-    margin-left: 20px;
+}
+
+.button {
+  width: 90%;
 }
 
   .grid-2 {
     grid-template-columns: repeat(1, 1fr);
+    max-width: 90vw;
+    margin: auto;
   }
 }
 @media screen and (max-width: 480px) {
@@ -187,12 +189,11 @@ h4 {
 
   .care {
     margin-top: 50px;
-  width: calc(100vw-40px);
-  height: auto;
-    padding: 20px 0px;
-    margin: 10px 20px;
+    width: 95%;
+    height: auto;
+    padding: 10px 10px;
 }
-  
+
 
   .header {
     text-align: left;
@@ -239,7 +240,7 @@ legend, fieldset {
   border: none;
 }
 
-form {
+.footer {
   width: 100vw;
   padding: 20px 0;
   background: antiquewhite;
