@@ -21,7 +21,7 @@
       <br />
       <form
         action="https://docs.google.com/forms/d/e/1FAIpQLSftDpU_jLuuzPIQFlbTaOgPweSJkl3tXf6w14uNVWFbPkxO-Q/formResponse"
-        target="_self" class="bootstrapForm" method="POST" onsubmit="window.location.reload();">
+        target="_self" class="bootstrapForm" method="POST">
         <h3>Sign up to receive updates and stay involved</h3>
         <div class="mail">
           <h3>Email:</h3>
@@ -121,7 +121,7 @@
   <div class="footer">
     <form
       action="https://docs.google.com/forms/d/e/1FAIpQLSftDpU_jLuuzPIQFlbTaOgPweSJkl3tXf6w14uNVWFbPkxO-Q/formResponse"
-      target="_self" class="bootstrapForm" method="POST" onsubmit="window.location.reload();">
+      target="_self" class="bootstrapForm" method="POST">
       <h3>Sign up to receive updates and stay involved</h3>
       <div class="mail">
         <h3>Email:</h3>
@@ -153,7 +153,7 @@
       console.log('i am preventing default!')
       e.preventDefault()
       var extraData = {}
-      $('#bootstrapForm').ajaxSubmit({
+      $('.bootstrapForm').ajaxSubmit({
         data: extraData,
         dataType: 'jsonp',
         error: function () {
